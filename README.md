@@ -21,18 +21,10 @@ Install the required packages using:
 pip install -r requirements.txt
 ```
 
-**`requirements.txt`**
-```txt
-numpy
-pandas
-scikit-learn
-matplotlib
-```
-
 ## 🧪 How to Run
 
 ```bash
-python knn_classifier.py
+python main.py
 ```
 
 ## 📊 Output
@@ -40,22 +32,14 @@ python knn_classifier.py
 - Console output showing **accuracy** and **confusion matrix** for different `k` values.
 - A **plot of decision boundaries** when `k=5` using the first two features.
 
-## 📁 Project Structure
-
-```
-├── knn_classifier.py     # Main Python script
-├── README.md             # Project documentation
-└── requirements.txt      # Dependencies
-```
-
 ## 📘 Dataset Info
 
 - **Dataset**: Iris (loaded via `sklearn.datasets`)
 - **Classes**: Setosa, Versicolor, Virginica
 - **Features Used**: Sepal length, Sepal width (for visualization)
 
-## 📷 Demo
+## 📷 Sample Output
 
-![Decision Boundary](https://upload.wikimedia.org/wikipedia/commons/e/e7/Iris_dataset_scatterplot.svg)
+![Figure_1](https://github.com/user-attachments/assets/e3559f2d-d2ca-4b8c-82a3-ab482a5a342c)
 
-> _Note: Image above is a general representation; actual output includes similar decision boundaries generated from your model._
+
